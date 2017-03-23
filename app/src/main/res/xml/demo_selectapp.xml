@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxPreferenceCategory android:title="GrxSelectApp" />
+    <GrxSelectApp android:title="Predefined App" android:key="selectapp_4" android:summary="Grx" android:defaultValue="com.mods.grx.settings" />
+    <GrxSelectApp android:title="Select App" android:key="selectapp_0" android:summary="Select an app" android:widgetLayout="@layout/widget_compl_accent" />
+    <GrxSelectApp android:icon="@drawable/demo_icon_5" android:title="Select App - All apps" android:key="selectapp_1" android:summary="Select an app" grxAllApps="true" />
+</PreferenceScreen>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="demo_lists_entries">
+        <item>Alarm</item>
+        <item>Airplane</item>
+        <item>Battery</item>
+        <item>Brightness</item>
+        <item>Clock</item>
+        <item>Alarm 1</item>
+        <item>Airplane 1</item>
+        <item>Battery 1</item>
+        <item>Clock 1</item>
+    </string-array>
+    <string-array name="demo_lists_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <array name="demo_lists_icons">
+        <item>@drawable/demo_icon_1</item>
+        <item>@drawable/demo_icon_2</item>
+        <item>@drawable/demo_icon_3</item>
+        <item>@drawable/demo_icon_4</item>
+        <item>@drawable/demo_icon_5</item>
+        <item>@drawable/demo_icon_1</item>
+        <item>@drawable/demo_icon_2</item>
+        <item>@drawable/demo_icon_3</item>
+        <item>@drawable/demo_icon_4</item>
+    </array>
+    <string-array name="demo_changelog">
+        <item>21 customizable type of preferences</item>
+        <item>Preferences can be declared using their short class name.</item>
+        <item>Resources (booleans, default values..) to define the default values of attributes for some preferences as well as several application features.</item>
+        <item>Easy navigation panel configuration, with groups support.</item>
+        <item>13 themes available. Easy customization of themes. Enough styleable attributes to build three different styled areas. Moro to come</item>
+        <item>Customizable dependency rules, which although simple, allow a more advanced behavior than the use of Android standard dependencies</item>
+        <item>Nested screens keeping the toolbar.</item>
+        <item>Group keys, allowing the developer both the saving of system resources in their mods and an easier update of them</item>
+        <item>Up to two different broadcast can be sent when a preference value is changed.This feature combined with group keys allows the developer different strategies for their mods implementation.</item>
+        <item>Customizable Rom Info section, with sliding tabs support. Mods developers can design as many screens as they need to show information about their works. Some extended views has been added in order to make this work easier.</item>
+        <item>Floating Action Button, with a standardized operation throughout the application.</item>
+        <item>Backup and restore of preferences with synchronization of stored values in settings system</item>
+        <item>From your mods you can easily open a screen, sub-screen and even simulate a click on a preference through intents with predefined intent extras strings</item>
+    </string-array>
+    <string-array name="demo_preferences">
+        <item>GrxCheckBoxPreference: extends CheckBoxPreference with support for group keys, broadcasts and dependency rules</item>
+        <item>GrxSwitchPreference: extends SwitchPreference with support for group keys, broadcasts and dependency rules</item>
+        <item>GrxSeekBar: seekbar with support for group keys, broadcasts and dependency rules. Max, min, interval, default value and units support. Option for showing a popup while the user is changing the preference value.</item>
+        <item>GrxNumberPicker: a numberpicker dialog with support for group keys, broadcasts and dependency rules. Default value can be set.</item>
+        <item>GrxEditText: edit text dialog with support for group keys, broadcasts and dependency rules. Default value can be set.</item>
+        <item>GrxSingleSelection: select a single option from a list of options with support for group keys, broadcasts and dependency rules. Default value can be set. Icons support</item>
+        <item>GrxMultipleSelection: selectable options from a list of options with support for group keys, broadcasts and dependency rules. Max number of selected options and default value can be set. Icons support</item>
+        <item>GrxSortList: Preference for sorting a list of options with support for group keys, broadcasts, dependency rules and icons.</item>
+        <item>GrxSelectSortItems: select options and sort them, with support for group keys, broadcasts and dependency rules. Max number of selected options and default value can be set. Icons support</item>
+        <item>GrxTimePicker: a time picker dialog with support for group keys, broadcasts and dependency rules. Default value can be set.</item>
+        <item>GrxDatePicker: a date picker dialog with support for group keys, broadcasts and dependency rules. Default value can be set.</item>
+        <item>GrxSelectApp: an app picker dialog with support for group keys, broadcasts and dependency rules. Default value can be set. Option to show system apps</item>
+        <item>GrxAccess: a picker dialog for selecting an app, an activity, a shortcut or a customizable (by the dev) option, with support for group keys, broadcasts and dependency rules. Default value can be set. Fully configurable in the preference declaration</item>
+        <item>GrxMultiAccess: a picker dialog for selecting and sorting multiple GrxAccess with support for group keys, broadcasts and dependency rules. Max selected GrxAccesses and default value can be set. Fully configurable in the preference declaration.</item>
+        <item>GrxColorPicker: a color picker dialog with support for group keys, broadcasts and dependency rules. Default value can be set. Two color picker interfaces available. Option to allow the users to select an image region in order to generate a color palette from which they can select a suggested color</item>
+        <item>GrxMultiAppColor: a preference for the association of colors and apps, with support for group keys, broadcasts and dependency rules. Default value can be set. </item>
+        <item>GrxPickImage: a preference to select an image with support for group keys, broadcasts and dependency rules. Parameters as image size or circular image creation can be set</item>
+        <item>GrxOpenActivity: a simple preference that launch the specified activity with support for dependency rules.</item>
+        <item>GrxOpenIntent: a simple preference that launch the specified intent with support for dependency rules.</item>
+        <item>GrxInfoText: a simple preference that shows the specified text with support for dependency rules.</item>
+        <item>GrxPreferenceCategory: PreferenceCategory with support for dependency rules. Options for text and background color. Option to hide the preference.</item>
+    </string-array>
+    <string-array name="demo_useroptions">
+        <item>Option to show Rom Info.</item>
+        <item>Theme selection, if this feature is allowed by the develooper</item>
+        <item>Navigation panel header background (image), if this featured is allowed by the develooper</item>
+        <item>Exit Confirmation option</item>
+        <item>Lists divider height</item>
+        <item>Navigation Panel position (right or left)</item>
+        <item>Show - hide floating action button</item>
+        <item>Floating Action Button position (left, center, right)</item>
+        <item>Option for keeping always open the groups of screens defined by the developer</item>
+        <item>Show buttons for collapse - expands groups of options.</item>
+        <item>Remember last screen</item>
+        <item>Double clicking on most of the preferences allows the user to reset its value to the default value. In color pickers a long click on the selected color allows the user to copy to the clipboard its value</item>
+    </string-array>
+
+</resources>

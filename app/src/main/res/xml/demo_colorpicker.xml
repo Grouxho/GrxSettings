@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxPreferenceCategory android:title="GrxColorPicker" />
+    <GrxColorPicker android:icon="@drawable/demo_icon_5" android:title="Demo 1" android:key="cpicker_0" android:summary="Circular, Auto:color palette, defval" android:defaultValue="0xFF830B56" grxCr="false" grxBc2="true" grxFlower="false" grxAlpha="true" grxDefColor="0xffff00ee" />
+    <GrxColorPicker android:title="Demo 2" android:key="cpicker_1" android:summary="flower, defcolor" grxCr="false" grxBc1="true" grxDefColor="0xffffffff" />
+    <GrxColorPicker android:title="Demo 3 " android:key="cpicker_2" android:summary="flower, no alpha," grxCr="false" grxBc2="true" grxAlpha="false" grxAuto="false" grxDefColor="0xff2b9e8a" />
+    <GrxColorPicker android:title="Demo 4" android:key="cpicker_3" android:summary="No auto button, circle" grxCr="false" grxBc1="true" grxFlower="false" grxAlpha="false" grxDefColor="0xff33b5e5" grxAuto="false" />
+</PreferenceScreen>

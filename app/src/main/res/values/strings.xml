@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <!--def values  - Pay attention!! -->
+    <string name="grx_dir_datos_app">grx</string>
+    <string name="grx_ico_sub_dir">ico_prefs</string>
+    <string name="gs_def_sep">|</string>
+    <string name="gs_grxBc1">com.grx.mods.SYSTEMUI</string>
+    <string name="gs_grxBc2">com.grx.mods.SERVICES</string>
+    <string name="gs_backup_ext">grxbk</string>
+
+
+    <!-- Info fragment tabs -->
+
+    <string name="info_about">About Us</string>
+    <string name="info_changelog">ChangeLog</string>
+    <string name="info_team">Our Team</string>
+    <string name="info_credits">Acknowledgments</string>
+
+    <!-- info texts -->
+
+    <string name="gs_rom_name">GrxSettings (Your Rom Name)</string>
+    <string name="gs_rom_info_option">Rom Info</string>
+
+
+
+    <!-- APP -->
+
+    <string name="app_name">GrxSettings</string>
+    <string name="header_text">GrxSettings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="add_new_item">Add new item</string>
+    <string name="update_item">Update Item</string>
+
+
+    <string name="gs_sync_start">Preferences Syncroinizations started.</string>
+    <string name="gs_sync_end">Preferences Syncroinizations finished.</string>
+
+
+    <string name="gs_remove">Remove</string>
+    <string name="gs_copy_color">Copy color</string>
+
+    <string name="gs_nav_header_bg_image_name">nav_header_bg.png</string>
+    <string name="gs_nav_header_bg_title">Nav. Panel Header Image</string>
+
+    <string name="gs_remove_header_img">Remove image</string>
+    <string name="gs_change_header_img">Select new image</string>
+    <string name="gs_image">Image</string>
+    <string name="gs_default">Default</string>
+
+    <string name="gs_no_access_selection">Nothing selected</string>
+
+
+    <string name="gs_select_theme">Select App Theme</string>
+    <string name="gs_theme_default">Blue (Light)</string>
+    <string name="gs_theme_default_dark">Blue (Dark)</string>
+    <string name="gs_theme_light_tile">Green (Light)</string>
+    <string name="gs_theme_dark_tile">Green (Dark)</string>
+    <string name="gs_theme_light_red">Red (Light)</string>
+    <string name="gs_theme_dark_red">Red (Dark)</string>
+    <string name="gs_theme_light_orange">Orange (Light))</string>
+    <string name="gs_theme_dark_orange">Orange (Dark)</string>
+    <string name="gs_theme_light_purple">Purple (Light))</string>
+    <string name="gs_theme_dark_purple">Purple (Dark)</string>
+    <string name="gs_theme_light_brown">Brown (Light))</string>
+    <string name="gs_theme_dark_yellow">Amber (Dark)</string>
+    <string name="gs_theme_light_green_orange">Gren-Ora. (Light))</string>
+
+
+
+    <string name="gs_nav_header_bg">Panel Header Bg</string>
+
+    <string name="gs_selecc_image_usando">Select Image using..</string>
+    <string name="gs_error_redondeando">Error processing image</string>
+
+
+
+
+    <string name="gs_backup">Backup</string>
+    <string name="gs_restore">Restore</string>
+    <string name="gs_multiappcolor_help">You can sort the items by long pressing an item, dragging and dropping it the desired position.\r\nThe delete buttom (X) deletes all the current selected items.\r\nThe add button (+) allows to add a new item.\r\nThe last button you see allows you to sort all items in alphabetic order.\r\nOnce an app is selected, swipping it to the right you can delete the item</string>
+    <string name="gs_multiappcolor_help_color">To change the color click on the item you want to modify.\r\nYou can sort the items by long pressing an item, dragging and dropping it the desired position.\r\nThe delete buttom (X) deletes all the current selected items.\r\nThe add button (+) allows to add a new item.\r\nThe last button you see allows you to sort all items in alphabetic order.\r\nOnce an app is selected, swipping it to the left will allow you to copy the current color to the clipboard. Swipping it to the right allows you to delete the item. </string>
+    <string name="gs_select_sort_help">In order to delete a item from your selection, swipe it left in the list and the option to delete the item will appear.\r\nTo place an item in other position just long press it and drag it to the desired position.\r\nTo add an item press + button and a list with available options will be shown.\r\nIf you want to delete all your current selection just press the X button.</string>
+    <string name="gs_ay_ayuda">Help</string>
+    <string name="gs_go_back">Back</string>
+    <string name="gs_selecciona_app">Select Application</string>
+    <string name="gs_creando_ordenando_listado">Creaing and sorting list ..</string>
+    <string name="gs_creando_listado">Creating applications list...</string>
+    <string name="gs_no_instalada">( %1$s is not installed! )</string>
+    <string name="gs_tit_borrar">Delete values</string>
+    <string name="gs_tit_reset">Reset values</string>
+    <string name="gs_mensaje_borrar">Delete selected values. Are you sure?</string>
+    <string name="gs_mensaje_reset">Reset to default values. Are you sure?</string>
+    <string name="gs_multi_apps_seleccionadas">%1$d apps selected</string>>
+    <string name="gs_multi_accesos_seleccionadas">%1$d items selected</string>>
+    <string name="gs_multi_select_seleccionadas">%1$d options selected</string>>
+    <string name="gs_error_enviando_bc">Error sending broadcast: %1$s</string>
+    <string name="gs_app_no_instalada">Not installed!</string>
+    <string name="gs_num_apps_seleccionadas">%1$d items selected!</string>
+    <string name="gs_items_seleccionados">items selected.</string>
+    <string name="gs_app_ya_seleccionada">%1$s is already selected!!</string>
+    <string name="gs_tit_borrar_todas_apps">Delete List</string>
+    <string name="gs_ay_borrar_todas_apps">It allows to delete all the values.</string>
+    <string name="gs_ay_tit_ordenar">List Ordering</string>
+    <string name="gs_ay_ordenar">Sorts the list of applications alphabetically</string>
+    <string name="gs_ay_tit_no_encontrada">App not installed</string>
+    <string name="gs_ay_no_encontrada">This icon indicates that the application is not installed or some kind of error happend. </string>
+
+    <string name="gs_copiado_clipboard">Value copied to the clipboard</string>
+    <string name="gs_aviso_num_max_opciones">Max number of allowed options has been reached.</string>
+    <string name="gs_max_apps">  ( max = %1$d )</string>
+    <string name="gs_ayuda_pref_ordenar">Long press on items to sort them</string>
+
+    <string name="gs_actividades">Activities</string>
+    <string name="gs_acciones">Actions</string>
+    <string name="gs_apps_usu">User Applications</string>
+    <string name="gs_accesos_directos">ShortCuts</string>
+    <string name="gs_error_acceso_directo">Some problem ocurred while creating the shortcut!!</string>
+    <string name="gs_aviso_acceso_no_permitido">Error starting the activity. Some type of access/activities/shortcuts just can be executed from system applications. In other cases, it is not possiblie to launch them!</string>
+
+    <string-array name="gsa_posicion_boton">
+        <item>Center</item>
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="gsa_ancho_divider">
+        <item>0 px</item>
+        <item>1 px</item>
+        <item>2 px</item>
+        <item>3 px</item>
+        <item>4 px</item>
+    </string-array>
+
+
+    <string name="gs_tit_dlg_ancho_divider">Divider height in preferences list</string>
+    <string name="gs_tit_dlg_pos_boton">FAB Button position</string>
+    <string name="gs_drw_derecha">Right position for Navigation Panel</string>
+    <string name="gs_mostrar_fab">Show Button (FAB)</string>
+    <string name="gs_mostrar_botones_grupos">Show Group Buttons</string>
+
+    <string name="gs_recordar_pantalla">Remember Screen</string>
+    <string name="gs_grupos_abiertos">Open Options Groups</string>
+    <string name="gs_text_intro">Grx Settings Demo App</string>
+    <string name="gs_confirmar_salir">Exit confirmation</string>
+    <string name="gs_titulo_salir">Finish</string>
+    <string name="gs_mensaje_salir">Exit. Are you sure?</string>
+    <string name="gs_si">Ok</string>
+    <string name="gs_no">Cancel</string>
+    <string name="gs_titulo_def_color_picker">Select color</string>
+    <string name="gs_lightness">Lightness</string>
+    <string name="gs_alpha">Alpha</string>
+    <string name="gs_auto_color">Auto Color Selection</string>
+    <string name="gs_auto_color_suggestions">Suggested Colors</string>
+
+
+    <string name="gs_tit_backup">Preferences Backup</string>
+    <string name="gs_info_backup">Select the new backup name. Do not use extension</string>
+    <string name="gs_no_valid_name">No valid backup name</string>
+    <string name="gs_backup_ok">Backup was ok! </string>
+    <string name="gs_tit_sobreescribir_backup">Backup already exist</string>
+    <string name="gs_mens_sobreescribir_backup">Bakcup %1$s already exists. Do you want to overwrite it?</string>
+    <string name="gs_no_backups">Backups dir not found</string>
+    <string name="gs_err_desconocido_restaurar">Unknown error while restoring..</string>
+    <string name="gs_tit_restaurar">Backup Restoration</string>
+    <string name="gs_mensaje_restaurar">Select the backup to be restored</string>
+    <string name="gs_mens_confirmar_restaurar">Are you sure you want to restore the backup %1$s ?</string>
+    <string name="gs_mens_resultado_restaurar">The backup  %1$s was as successfully restored. %2$d preferences were found</string>
+
+
+
+
+</resources>

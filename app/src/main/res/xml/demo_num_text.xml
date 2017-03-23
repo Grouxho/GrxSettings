@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxPreferenceCategory android:title="GrxSeekBar" />
+    <GrxSeekBar android:title="Seekbar 1" android:key="seekbar_1" android:summary="interval 50" android:defaultValue="600" grxMin="400" grxMax="1200" grxUni=" mS" grxInter="50" grxPopup="true" grxBc1="true" grxGkey="seekbars" grxBc2="true" />
+    <GrxSeekBar grxPopup="false" android:title="Seekbar 2" android:key="seekbar_2" android:summary="No defval, inter 1" android:defaultValue="9" grxMin="3" grxMax="15" grxUni=" sp" grxInter="1" grxBc1="true" grxGkey="seekbars" grxBc2="true" />
+    <GrxSeekBar android:title="Seekbar 3" android:key="seekbar_3" grxMin="3" grxMax="15" grxInter="3" grxPopup="true" grxBc1="true" grxGkey="seekbars" grxBc2="true" />
+    <GrxPreferenceCategory android:title="GrxNumberPicker" />
+    <GrxNumberPicker android:icon="@drawable/demo_icon_3" android:title="Number Picker 1" android:key="numberpicker_1" android:summary="defval 7, units" android:defaultValue="7" grxMin="2" grxMax="20" grxUni=" Sec." grxGkey="numberpickers" grxBc1="true" />
+    <GrxNumberPicker android:title="Number Picker 2" android:key="numberpicker_2" android:summary="no defval, no units" grxMin="2" grxMax="20" grxGkey="numberpickers" grxBc1="true" />
+    <GrxPreferenceCategory android:title="GrxEditTextPreference" />
+    <GrxEditText android:title="EditText 1" android:key="edittext_1" android:summary="With default text" android:widgetLayout="@layout/widget_accent_arrow" android:defaultValue="this is de default text" grxGkey="numberpickers" />
+    <GrxEditText android:icon="@drawable/demo_icon_4" android:title="EditText 2" android:key="edittext_2" android:summary="No default value" android:widgetLayout="@layout/widget_arrow" grxBc1="true" />
+</PreferenceScreen>

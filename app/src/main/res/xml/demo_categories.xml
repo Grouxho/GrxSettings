@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxPreferenceCategory android:title="GrxPreferenceCategory" />
+    <GrxInfoText android:summary="This is a GrxInfoText. The above category is a normal category. The following one is a GrxPreferenceCategory with customized text color and background color."
+        grxIconRight="demo_icon_3"/>
+    <GrxPreferenceCategory android:title="GrxPreferenceCategory" grxTextColor="#fffcff00" grxBackGroundColor="#80000000" />
+    <GrxInfoText android:icon="@drawable/demo_icon_2" android:summary="This is a GrxInfoText. The following one is a hidden category wrapping a GrxInfoText. The hidden category has got a standard dependency rule, beeing dependent on the status of the next checkbox." />
+    <GrxSwitchPreference android:title="Switch 2" android:key="switch_2" android:defaultValue="false" android:summaryOn="Summary On" android:summaryOff="Summary Off" />
+    <GrxPreferenceCategory android:title="Hidden Category" android:dependency="switch_2" grxHide="true">
+        <GrxInfoText android:summary="GrxInfotext wrapped in a invisible category. For example, you could use GrxInfoText to show information to your users.. " />
+    </GrxPreferenceCategory>
+
+
+
+</PreferenceScreen>

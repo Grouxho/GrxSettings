@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:LinearLayoutandroid="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout
+    android:id="@+id/vtit_listado"
+    android:layout_below="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/botones"
+        android:layout_height="40.0dip"
+        android:orientation="horizontal">
+        <LinearLayout android:orientation="vertical" android:clickable="true" android:id="@+id/boton_uncheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:layout_weight="1">
+            <ImageView android:layout_width="26.0dip" android:background="?selectableItemBackgroundBorderless" android:tint="?complemnt_accent_color" android:layout_height="30.0dip" android:layout_gravity="center" android:src="@drawable/ic_uncheckbox"   />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:id="@+id/boton_check" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:layout_weight="1">
+            <ImageView android:layout_width="26.0dip" android:background="?selectableItemBackgroundBorderless" android:tint="?complemnt_accent_color" android:layout_height="30.0dip" android:layout_gravity="center" android:src="@drawable/ic_checkbox" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:background="#09222222" android:layout_height="1dip"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView android:id="@+id/txt_apps_seleccionadas" android:layout_marginBottom="8dp" android:layout_marginTop="5dp" android:layout_weight="1" android:layout_centerVertical="true" android:textSize="14sp" android:textColor="?colorAccent" android:layout_width="wrap_content" android:layout_height="18dp" android:gravity="center" android:layout_gravity="center" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:background="#09222222" android:layout_height="1dip"/>
+    <LinearLayout android:layout_width="match_parent" android:background="#00000000" android:layout_height="4dip"/>
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/lista_opciones"
+        android:layout_below="@+id/vtit_listado"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:divider="?android:listDivider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout android:orientation="horizontal" android:layout_below="@+id/lista_opciones" android:id="@+id/separador" android:layout_width="match_parent" android:background="#09222222" android:layout_height="3dip"/>
+
+
+</RelativeLayout>

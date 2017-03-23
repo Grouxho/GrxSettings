@@ -1,0 +1,133 @@
+<resources>
+
+    <!-- info texts -->
+
+    <string name="gs_rom_name">GrxAjustes (texto personalizable)</string>
+    <string name="gs_rom_info_option">Información de la Rom</string>
+
+    <!-- APP -->
+
+    <string name="gs_nav_header_bg_title">Imagen Panel Navegación</string>
+
+    <string name="gs_remove_header_img">Eliminar Imagen</string>
+    <string name="gs_change_header_img">Seleccionar nueva imagen</string>
+    <string name="gs_image">Imagen</string>
+    <string name="gs_default">Defecto</string>
+
+    <string name="gs_no_access_selection">Ningún elemento seleccionado</string>
+
+
+    <string name="gs_select_theme">Tema de la aplicación</string>
+    <string name="gs_theme_default">Azul (Light)</string>
+    <string name="gs_theme_default_dark">Azul (Dark)</string>
+    <string name="gs_theme_light_tile">Verde (Light)</string>
+    <string name="gs_theme_dark_tile">Verde (Dark)</string>
+    <string name="gs_theme_light_red">Rojo (Light)</string>
+    <string name="gs_theme_dark_red">Rojo (Dark)</string>
+    <string name="gs_theme_light_orange">Naranja (Light))</string>
+    <string name="gs_theme_dark_orange">Naranja (Dark)</string>
+    <string name="gs_theme_light_purple">Morado (Light))</string>
+    <string name="gs_theme_dark_purple">Morado (Dark)</string>
+    <string name="gs_theme_light_brown">Marrón (Light))</string>
+    <string name="gs_theme_dark_yellow">Ámbar (Dark)</string>
+    <string name="gs_theme_light_green_orange">Verde-Naraj. (Light))</string>
+
+
+
+    <string name="gs_nav_header_bg">Panel Header Bg</string>
+
+    <string name="gs_selecc_image_usando">Selecciona imagen usand...</string>
+    <string name="gs_error_redondeando">Error redondeando imagen</string>
+
+    <string name="gs_remove">Eliminar</string>
+    <string name="gs_copy_color">Copia Color</string>
+
+    <string name="gs_backup">Backup</string>
+    <string name="gs_restore">Restaurar</string>
+
+
+    <string name="gs_sync_start">Sincronización de preferencias iniciada</string>
+    <string name="gs_sync_end">Sincronización de preferencias finalizadas</string>
+
+    <string name="app_name">GrxAjustes</string>
+
+    <string name="gs_ay_ayuda">Ayuda</string>
+    <string name="gs_go_back">Volver</string>
+    <string name="gs_multiappcolor_help">Para eliminar un elemento desplázalo hacia la derecha.\r\nLos elementos seleccionados podrían ser ordenados mediante la pulsación larga sobre ellos, arrastrándolos a la posición deseada.\r\nEl botón de eliminar selección (X) borra todos los elementos.\r\nEl botón añadir (+) permite añadir una nueva aplicación.\r\nEl último botón disponible permite ordenar alfabéticamente los elementos seleccionados.</string>
+    <string name="gs_multiappcolor_help_color">Para cambiar el color clickea en un elemento de la lista.\r\nPara eliminar una selección desplázalo hacia la derecha.\r\nLos elementos seleccionados podrían ser ordenados mediante la pulsación larga sobre ellos, arrastrándolos a la posición deseada.\r\nEl botón de eliminar selección (X) borra todos los elementos seleccionados.\r\nEl botón añadir (+) permite añadir una nueva aplicación.\r\nEl último botón disponible permite ordenar alfabéticamente los elementos seleccionados.\r\nDesplazando un elemento a la izquierda te permitirá copiar el valor del color al portapapeles.</string>
+    <string name="gs_select_sort_help">Para borrar una selección deslízala hacia la izquierda y aparecerá la opción de borrar.\n\Para posicionar un elemento pulsa largo y arrástralo hasta la posición deseada.\n\rSi quieres añadir un nuevo elemento a tu selección pulsa el botón +\n\rPara borrar toda la selección actual pulsa el botón X</string>
+
+    <string name="gs_selecciona_app">Selecciona Aplicación</string>
+    <string name="gs_creando_ordenando_listado">Creando y ordenando listado ..</string>
+    <string name="gs_creando_listado">Creando listado aplicaciones...</string>
+    <string name="gs_no_instalada">( %1$s no está instalada! )</string>
+    <string name="gs_tit_borrar">Borrar valores</string>
+    <string name="gs_tit_reset">Reset valores</string>
+    <string name="gs_mensaje_borrar">Seguro que quieres borrar el/los valor/es de esta opción?</string>
+    <string name="gs_mensaje_reset">Seguro que quieres restablecer a los valores por defecto de esta opción?</string>
+    <string name="gs_multi_apps_seleccionadas">%1$d apps seleccionadas</string>>
+    <string name="gs_multi_accesos_seleccionadas">%1$d elementos seleccionados</string>>
+    <string name="gs_multi_select_seleccionadas">%1$d opciones seleccionadas</string>>
+    <string name="gs_error_enviando_bc">Error enviando broadcast: %1$s</string>
+    <string name="gs_app_no_instalada">No instalada!</string>
+    <string name="gs_num_apps_seleccionadas">%1$d elementos seleccionados!</string>
+    <string name="gs_items_seleccionados">elementos seleccionados.</string>
+    <string name="gs_app_ya_seleccionada">%1$s ya seleccionada!!</string>
+    <string name="gs_tit_borrar_todas_apps">Borrar Lista</string>
+    <string name="gs_ay_borrar_todas_apps">Permite borrar toda la lista de selección</string>
+    <string name="gs_ay_tit_ordenar">Ordenar Listado</string>
+    <string name="gs_ay_ordenar">Ordena alfabéticamente el listado de apps</string>
+    <string name="gs_ay_tit_no_encontrada">App no instalada</string>
+    <string name="gs_ay_no_encontrada">Si aparece este icono en el listado es que la app no está instalada o ha ocurrido algún otro error.</string>
+    <string name="gs_copiado_clipboard">Valor copiado al portapapeles</string>
+    <string name="gs_aviso_num_max_opciones">Número máximo opciones alcanzado</string>
+    <string name="gs_max_apps">  ( máx = %1$d )</string>
+    <string name="gs_ayuda_pref_ordenar">Pulsa Largo sobre items para ordenar</string>
+
+    <string name="gs_actividades">Actividades</string>
+    <string name="gs_acciones">Acciones</string>
+    <string name="gs_apps_usu">Aplicaciones de usuario</string>
+    <string name="gs_accesos_directos">Accesos directos</string>
+    <string name="gs_error_acceso_directo">Algún problema creando acceso directo</string>
+
+    <string name="gs_aviso_acceso_no_permitido">Error lanzando actividad. Algunos accesos/actividades sólo se pueden ejecutar desde aplicaciones de sistema. En otros casos simplemente es que no se puede ejecutar directamente.</string>
+
+
+    <string-array name="gsa_posicion_boton">
+        <item>Centrado</item>
+        <item>Izquierda</item>
+        <item>Derecha</item>
+    </string-array>
+
+
+    <string name="gs_tit_dlg_ancho_divider">Ancho divisor listados prefs.</string>
+    <string name="gs_tit_dlg_pos_boton">Posición FAB Botón</string>
+    <string name="gs_drw_derecha">Panel Navegación a la derecha</string>
+    <string name="gs_mostrar_fab">Mostrar botón (FAB)</string>
+    <string name="gs_mostrar_botones_grupos">Mostrar botones grupos</string>
+
+    <string name="gs_recordar_pantalla">Recordar Pantalla</string>
+    <string name="gs_grupos_abiertos">Grupos de opciones abiertos</string>
+    <string name="gs_text_intro">Aplicación demostración Grx Ajustes</string>
+    <string name="gs_confirmar_salir">Confirmación para finalizar</string>
+    <string name="gs_titulo_salir">Finalizar</string>
+    <string name="gs_mensaje_salir">Seguro que quieres salir?</string>
+    <string name="gs_si">Aceptar</string>
+    <string name="gs_no">Cancelar</string>
+    <string name="gs_titulo_def_color_picker">Selecciona Color</string>
+
+    <string name="gs_tit_backup">Backup de preferencias</string>
+    <string name="gs_info_backup">Selecciona un nombre para el backup. No poner extensión</string>
+    <string name="gs_no_valid_name">Nombre de backup no válido</string>
+    <string name="gs_backup_ok">Backup creado correctamente</string>
+    <string name="gs_tit_sobreescribir_backup">Archivo Backup Existente</string>
+    <string name="gs_mens_sobreescribir_backup">El fichero %1$s ya existe. Quieres sobreescribilo?</string>
+    <string name="gs_no_backups">No se han encontrado backups</string>
+    <string name="gs_err_desconocido_restaurar">Ocurrió un error desconocido al restaurar</string>
+    <string name="gs_tit_restaurar">Restaurar Backup</string>
+    <string name="gs_mensaje_restaurar">Selecciona backup a restaurar</string>
+    <string name="gs_mens_confirmar_restaurar">Realmente quieres restaurar el backup %1$s ?</string>
+    <string name="gs_mens_resultado_restaurar">Archivo  %1$s restaurado satisfactoriamente. %2$d preferencias restauradas</string>
+
+
+</resources>

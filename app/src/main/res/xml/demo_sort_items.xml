@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" >
+    <GrxPreferenceCategory android:title="GrxSortList" />
+
+    <GrxSortList grxA_entries="@array/demo_lists_entries" android:title="Icons and defval" android:key="sortlist_1" android:widgetLayout="@layout/widget_accent_arrow" android:defaultValue="2|4|1|8|6|3|5|7|" grxA_values="@array/demo_lists_values" grxA_ics="@array/demo_lists_icons" grxBc1="true" />
+    <GrxSortList android:icon="@drawable/demo_icon_1" grxA_entries="@array/demo_lists_entries" android:title="No icons no defval" android:key="sortlist_2" android:widgetLayout="@layout/widget_accent_arrow" grxA_values="@array/demo_lists_values" grxBc2="true" grxCr="false" />
+    <GrxSortList grxSortIcon="true" android:icon="@drawable/demo_icon_1" grxA_entries="@array/demo_lists_entries" android:title="No icons, no defval, grabber" android:key="sortlist_3" android:widgetLayout="@layout/widget_accent_arrow" grxA_values="@array/demo_lists_values" grxBc2="true" grxCr="false" />
+    <GrxSortList android:icon="@drawable/demo_icon_4" grxA_entries="@array/demo_lists_entries" android:title="Icons no defval" android:key="sortlist_4" android:widgetLayout="@layout/widget_compl_accent" grxA_ics="@array/demo_lists_icons" grxA_values="@array/demo_lists_values" grxBc2="true" grxCr="false" />
+    <GrxSortList grxSortIcon="true" android:icon="@drawable/demo_icon_4" grxA_entries="@array/demo_lists_entries" android:title="Icons no defval, grabber" android:key="sortlist_5" android:widgetLayout="@layout/widget_compl_accent" grxA_ics="@array/demo_lists_icons" grxA_values="@array/demo_lists_values" grxBc2="true" grxCr="false" />
+
+</PreferenceScreen>

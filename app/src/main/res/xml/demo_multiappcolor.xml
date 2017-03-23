@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GrxMultiAppColor android:title="demo 1" android:key="multiappcolor_1" android:summary="link apps and colors"/>
+    <GrxMultiAppColor android:icon="@drawable/demo_icon_3" android:title="With system apps and defcolor"  grxDefcolor="0xff08ff00" android:key="multiappcolor_2" android:widgetLayout="@layout/widget_accent_arrow" grxAllApps="true" android:summary="link apps and colors"/>ff
+    <GrxMultiAppColor android:title="Save activity name and 5 max" grxMax="5" grxSaveActName="true" android:widgetLayout="@layout/widget_compl_accent" android:key="multiappcolor_3" android:summary="link apps and colors"/>
+    <GrxMultiAppColor android:title="No color, 7 max" grxMax="7" android:key="multiappcolor_4" android:widgetLayout="@layout/widget_arrow" grxColor="false" android:summary="link apps and colors"/>
+
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_items_vistos_listados_drag">8</integer>
+    <integer name="def_divider">1</integer>
+    <integer name="def_grxDefColor">0x7033b5e5</integer>
+    <integer name="def_theme">12</integer> <!-- default theme, GreenOrange light . Look inte arrays.xml -->
+
+</resources>

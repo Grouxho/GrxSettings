@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app -->
+
+    <string-array name="gsa_theme_list">
+        <item>@string/gs_theme_default</item>
+        <item>@string/gs_theme_default_dark</item>
+        <item>@string/gs_theme_light_tile</item>
+        <item>@string/gs_theme_dark_tile</item>
+        <item>@string/gs_theme_light_red</item>
+        <item>@string/gs_theme_dark_red</item>
+        <item>@string/gs_theme_light_orange</item>
+        <item>@string/gs_theme_dark_orange</item>
+        <item>@string/gs_theme_light_purple</item>
+        <item>@string/gs_theme_dark_purple</item>
+        <item>@string/gs_theme_light_brown</item>
+        <item>@string/gs_theme_dark_yellow</item>
+        <item>@string/gs_theme_light_green_orange</item>
+
+
+    </string-array>
+
+    <string-array name="gsa_panel_header_options">
+        <item>@string/gs_remove_header_img</item>
+        <item>@string/gs_change_header_img</item>
+    </string-array>
+
+    <string-array name="tabs_names">
+        <item>About this app</item>
+        <item>ChangeLog</item>
+        <item>Credits and Thanks</item>
+    </string-array>
+
+    <string-array name="tabs_layouts">
+        <item>demo_info_about</item>
+        <item>demo_info_changelog</item>
+        <item>demo_info_credits</item>
+    </string-array>
+
+    <!-- demo -->
+
+
+
+
+</resources>

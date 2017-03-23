@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mods.grx.settings.com.grxmods.settings.GrxAjustes">
+    <item
+        android:id="@+id/menu_backup"
+        android:orderInCategory="100"
+        android:title="@string/gs_backup"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_restaurar"
+        android:orderInCategory="100"
+        android:title="@string/gs_restore"
+        app:showAsAction="never" />
+</menu>

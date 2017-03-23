@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxPreferenceCategory android:title="GrxSwitchPreference" />
+    <GrxSwitchPreference android:icon="@drawable/demo_icon_1" android:title="Switch 1" android:key="switch_1" android:defaultValue="true" android:summaryOn="Summary On" android:summaryOff="Summary Off" grxGkey="switches" />
+    <GrxSwitchPreference android:title="Switch 2" android:key="switch_2" android:defaultValue="false" android:summaryOn="Summary On" android:summaryOff="Summary Off" grxGkey="switches" grxBc1="true" />
+    <GrxPreferenceCategory android:title="GrxCheckBoxPreference" />
+    <GrxCheckBoxPreference android:title="CheckBox 1" android:key="checkbox_1" android:defaultValue="true" android:summaryOn="Summary On" android:summaryOff="Summary Off" grxGkey="checkboxes" grxBc2="true" grxBc1="true" />
+    <GrxCheckBoxPreference android:icon="@drawable/demo_icon_5" android:title="CheckBox 2" android:key="checkbox_2" android:defaultValue="false" android:summaryOn="Summary On" android:summaryOff="Summary Off" grxGkey="checkboxes" grxBc1="true" />
+</PreferenceScreen>

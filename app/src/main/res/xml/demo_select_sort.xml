@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxSelectSortItems grxMax="3" grxA_entries="@array/demo_lists_entries" android:title="Icons, 1 defval, max 3" android:key="selectsort_1" android:widgetLayout="@layout/widget_accent_arrow" android:defaultValue="2|" grxA_values="@array/demo_lists_values" grxA_ics="@array/demo_lists_icons" grxBc1="true" />
+    <GrxSelectSortItems android:icon="@drawable/demo_icon_1" grxA_entries="@array/demo_lists_entries" android:title="No icons no defval, no max" android:key="selectsort_2" android:widgetLayout="@layout/widget_accent_arrow" grxA_values="@array/demo_lists_values" grxBc2="true" grxCr="false" />
+    <GrxSelectSortItems android:icon="@drawable/demo_icon_4" grxA_entries="@array/demo_lists_entries" android:defaultValue="2|4|" android:title="Icons, defval, no max" android:key="selectsort_3" android:widgetLayout="@layout/widget_compl_accent" grxA_ics="@array/demo_lists_icons" grxA_values="@array/demo_lists_values" grxBc2="true" grxCr="false" />
+
+</PreferenceScreen>

@@ -1,0 +1,68 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'sublime-nav-view'
+
+    publishedGroupId = 'com.appeaser.sublimenavigationviewlibrary'
+    libraryName = 'SublimeNavigationView'
+    artifact = 'sublimenavigationviewlibrary'
+
+    libraryDescription = 'SublimeNavigationView is a complete rewrite of NavigationView (from Design Support library) that enables usage of Checkboxes, Switches & Badges as menu items. Menus are defined in XML, and parsed using a custom MenuInflater. SublimeNavigationView works with Parcelable Menus which means that state retention is built-in. Moreover, it can support multiple menus while preserving their respective states. Groups added to the Menu have the added feature of being collapsible/expandable. Along with this, SublimeNavigationView allows a few options for custom styling.'
+
+    siteUrl = 'https://github.com/vikramkakkar/SublimeNavigationView'
+    gitUrl = 'https://github.com/vikramkakkar/SublimeNavigationView.git'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'vikramkakkar'
+    developerName = 'Vikram Kakkar'
+    developerEmail = 'vikram.kakkar.01@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 22
+        versionCode 1
+        versionName "0.0.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:22+'
+    compile 'com.android.support:recyclerview-v7:22+'
+    compile 'com.android.support:support-annotations:22+'
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

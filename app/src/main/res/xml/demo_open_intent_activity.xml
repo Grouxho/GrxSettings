@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxPreferenceCategory android:title="GrxOpenActivity" />
+    <GrxOpenActivity android:title="Open Wifi Settings" android:summary="summary is useless" android:widgetLayout="@layout/widget_accent_arrow" grxActivity="com.android.settings/com.android.settings.Settings$WifiSettingsActivity" />
+    <GrxOpenActivity android:title="Not installed.." android:summary="This happens when not installed" grxActivity="com.android/com.hhkk.kk" />
+    <GrxPreferenceCategory android:title="GrxOpenIntent" />
+    <GrxOpenIntent android:icon="@drawable/demo_icon_2" android:title="Esp Desarrolladores" android:summary="Click here to open">
+        <intent android:action="android.intent.action.VIEW" android:data="http://www.esp-desarrolladores.com" />
+    </GrxOpenIntent>
+    <GrxOpenIntent android:title="XDA S7 Edge" android:widgetLayout="@layout/widget_compl_accent">
+        <intent android:action="android.intent.action.VIEW" android:data="https://forum.xda-developers.com/s7-edge" />
+    </GrxOpenIntent>
+</PreferenceScreen>

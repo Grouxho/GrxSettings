@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="DEMO">true</bool>
+
+    <bool name="allow_user_panel_header_bg">true</bool>
+    <bool name="allow_user_select_theme">true</bool>
+
+
+    <bool name="enable_settingsdb">false</bool>
+
+    <bool name="enable_grxGKeys">true</bool>
+
+    <bool name="def_grxCr">false</bool>
+    <bool name="def_grxBc1">false</bool>
+    <bool name="def_grxBc2">false</bool>
+
+    <bool name="def_grxShc">true</bool>
+    <bool name="def_grxApps">true</bool>
+    <bool name="def_grxAct">true</bool>
+    <bool name="def_grxSv_ics">false</bool>
+
+    <bool name="def_Show_SortIcon">false</bool>
+
+    <bool name="def_grxAlpha">true</bool>
+    <bool name="def_grxColorAuto">true</bool>
+    <bool name="def_grxFlower">true</bool>
+
+
+
+
+</resources>

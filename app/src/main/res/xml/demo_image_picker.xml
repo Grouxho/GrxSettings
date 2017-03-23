@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxInfoText android:summary="For now this app does not proccess EXIF info. So, if you configure this preference to pick a image gallery without crop your mod should proccess if exist EXIF info in the selected image"/>
+    <GrxPickImage android:title="Simple Image Picker" android:summary="No EXIF info is read!!" android:key="pickimage_1" android:widgetLayout="@layout/widget_compl_accent"/>
+    <GrxInfoText android:summary="If you want your user to select a full screen image you should add an info text telling them to select a screen capture"/>
+    <GrxPickImage android:icon="@drawable/demo_icon_2" android:summary="Pref with android icon.." android:title="Another Simple Image Picker" android:key="pickimage_2" android:widgetLayout="@layout/widget_accent_arrow"/>
+    <GrxPickImage android:title="200 x 300 " android:key="pickimage_4" grxSizeX="200" grxSizeY="300" android:widgetLayout="@layout/widget_compl_accent"/>
+    <GrxInfoText android:summary="If you want to get a circular image you should use same x and y size. If not, the app will make rounded corners based on the smaller size. You can get unexpected results"/>
+    <GrxPickImage android:title="200 x 200 circular " android:key="pickimage_5" grxSizeX="200" grxSizeY="200" grxCircular="true" android:widgetLayout="@layout/widget_compl_accent"/>
+    <GrxPickImage android:title="200 x 300 circular " android:key="pickimage_8" grxSizeX="200" grxSizeY="300" grxCircular="true" android:widgetLayout="@layout/widget_compl_accent"/>
+    <GrxInfoText android:summary="If you configure the preference to crop an image, the selected image will be escalated proportionally in the pref." />
+    <GrxPickImage android:icon="@drawable/demo_marley" android:title="500 x 890" android:key="pickimage_6" grxSizeX="500" grxSizeY="890" android:widgetLayout="@layout/widget_compl_accent"/>
+    <GrxPickImage android:icon="@drawable/demo_leonardo" android:title="900 x 500" android:key="pickimage_7" grxSizeX="900" grxSizeY="500" android:widgetLayout="@layout/widget_compl_accent"/>
+</PreferenceScreen>

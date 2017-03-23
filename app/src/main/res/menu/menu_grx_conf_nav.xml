@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <Separator/>
+
+    <TextWithBadge
+        android:id="@+id/grx_mid_rom_info"
+        android:title="@string/gs_rom_info_option"
+        android:checkable="false" />
+
+    <TextWithBadge
+        android:id="@+id/grx_mid_theme"
+        android:title="@string/gs_select_theme"
+        android:checkable="true" />
+
+    <TextWithBadge
+        android:id="@+id/grx_header_svn_back"
+        android:title="@string/gs_nav_header_bg"
+        android:checkable="false" />
+
+    <TextWithBadge
+        android:id="@+id/grx_mid_ancho_divider"
+        android:title="@string/gs_tit_dlg_ancho_divider"
+        android:checkable="false" />
+
+    <Separator/>
+
+
+
+    <Switch
+        android:id="@+id/grx_mid_drawer_dcha"
+        android:title="@string/gs_drw_derecha"
+        android:checked="false"
+        android:checkable="true"/>
+
+    <Checkbox
+        android:id="@+id/grx_mid_mostrar_boton"
+        android:title="@string/gs_mostrar_fab"
+        android:checked="false"
+        android:checkable="true" />
+    <TextWithBadge
+        android:id="@+id/grx_mid_posicion_boton"
+        android:title="@string/gs_tit_dlg_pos_boton"
+        android:checkable="false" />
+
+
+
+    <Separator/>
+
+    <Checkbox
+        android:id="@+id/grx_mid_grupos_abiertos"
+        android:title="@string/gs_grupos_abiertos"
+        android:checked="false"
+        android:checkable="true" />
+    <Checkbox
+        android:id="@+id/grx_mid_botones_grupos"
+        android:title="@string/gs_mostrar_botones_grupos"
+        android:checked="false"
+        android:checkable="true" />
+
+    <Separator/>
+
+    <Checkbox
+        android:id="@+id/grx_mid_recordar_pantalla"
+        android:title="@string/gs_recordar_pantalla"
+        android:checked="false"
+        android:checkable="true" />
+
+    <Checkbox
+        android:id="@+id/grx_mid_confirmar_salir"
+        android:title="@string/gs_confirmar_salir"
+        android:checked="false"
+        android:checkable="true" />
+
+    <Separator/>
+
+</menu>

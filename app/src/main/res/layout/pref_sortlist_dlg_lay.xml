@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+        <TextView android:id="@+id/ayuda_ordenar" android:layout_weight="1" android:layout_centerVertical="true" android:textSize="14.0dip" android:textColor="?colorAccent" android:layout_width="wrap_content" android:layout_height="32.0dip" android:gravity="center" android:layout_gravity="center" />
+    </LinearLayout>
+
+    <com.mods.grx.settings.sldv.SlideAndDragListView
+        android:id="@+id/lv_edit"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="?android:listDivider"
+        android:fadeScrollbars="true"
+        android:listSelector="?android:selectableItemBackground"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip">
+     </com.mods.grx.settings.sldv.SlideAndDragListView>
+
+</LinearLayout>

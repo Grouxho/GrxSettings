@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="24dp" android:paddingTop="20dp" android:paddingRight="24dp" android:paddingBottom="24dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Hex"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <EditText
+                style="@style/PickerEditText"
+                android:hint="Color.."
+                android:layout_weight="1"
+                android:id="@+id/edit_text"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:inputType="textNoSuggestions"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/default_preview_height"
+                android:gravity="center|right"
+                android:id="@+id/color_preview_container"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@android:color/transparent"
+                    android:id="@+id/color_preview"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/gs_lightness"/>
+        <com.mods.grx.settings.prefssupport.colorpicker.slider.LightnessSlider
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:id="@+id/lightness_slider"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:id="@+id/v_txt_alfa"
+            android:text="@string/gs_alpha"/>
+        <com.mods.grx.settings.prefssupport.colorpicker.slider.AlphaSlider
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="36dp"
+            android:id="@+id/alpha_slider"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.mods.grx.settings.prefssupport.colorpicker.ColorPickerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/colorpickerview"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

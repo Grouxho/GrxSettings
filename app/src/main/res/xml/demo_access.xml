@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GrxPreferenceCategory android:title="GrxAccess" />
+    <GrxAccess android:title="All options" android:key="access_1" android:summary="Select a shortcut, app, activity or customized action" grxShc="true" grxApps="true" grxAct="true"
+        grxA_entries="@array/demo_lists_entries" grxA_values="@array/demo_lists_values" grxA_ics="@array/demo_lists_icons"  />
+    <GrxAccess android:title="All options - No custom icons" android:key="access_2" android:summary="Select a shortcut, app, activity or customized action" android:widgetLayout="@layout/widget_accent_arrow" grxShc="true" grxApps="true" grxAct="true"
+        grxA_entries="@array/demo_lists_entries" grxA_values="@array/demo_lists_values" />
+
+    <GrxPreferenceCategory android:title="GrxAccess - Just ShortCuts" />
+    <GrxAccess android:icon="@drawable/demo_icon_1" android:title="Select ShortCut" android:key="access_3" android:summary="Select a shortcut" android:widgetLayout="@layout/widget_compl_accent"
+        grxShc="true" grxApps="false" grxAct="false" />
+    <GrxPreferenceCategory android:title="GrxAccess - Just Apps" />
+    <GrxAccess android:icon="@drawable/demo_icon_2" android:title="Select App" android:key="access_4" android:summary="Select a shortcut" android:widgetLayout="@layout/widget_compl_accent"
+        grxShc="false" grxApps="true" grxAct="false" />
+
+    <GrxPreferenceCategory android:title="GrxAccess - Just Activities" />
+    <GrxAccess android:icon="@drawable/demo_icon_3" android:title="Select Activity" android:key="access_5" android:widgetLayout="@layout/widget_accent_arrow"
+        grxShc="false" grxApps="false" grxAct="true" />
+
+    <GrxPreferenceCategory android:title="GrxAccess - Just Cust. Options" />
+    <GrxAccess android:icon="@drawable/demo_icon_4" android:title="Select Option" android:key="access_6" android:widgetLayout="@layout/widget_arrow"
+        grxShc="false" grxApps="false" grxAct="false"
+        grxA_entries="@array/demo_lists_entries" grxA_values="@array/demo_lists_values" grxA_ics="@array/demo_lists_icons"
+        />
+
+    <GrxPreferenceCategory android:title="GrxAccess - Apps + Activities" />
+    <GrxAccess android:icon="@drawable/demo_icon_5" android:title="Select App or Activ." android:key="access_7" android:summary="" android:widgetLayout="@layout/widget_compl_accent"
+        grxShc="false" grxApps="true" grxAct="true" />
+</PreferenceScreen>

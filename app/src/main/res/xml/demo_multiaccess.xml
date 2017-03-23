@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="test standard dependency" android:key="check_dependency" android:defaultValue="true" />
+    <GrxPreferenceCategory android:title="GrxMultiAccess" />
+    <GrxMultiAccess android:title="All options" android:key="multiaccess_1" android:summary="No limit" android:dependency="check_dependency" grxShc="true" grxApps="true" grxAct="true"
+        grxA_entries="@array/demo_lists_entries" grxA_values="@array/demo_lists_values" grxA_ics="@array/demo_lists_icons"/>
+    <GrxMultiAccess android:title="All options" android:key="multiaccess_2" android:summary="No Limit" android:widgetLayout="@layout/widget_accent_arrow" android:dependency="check_dependency" grxShc="true" grxApps="true" grxAct="true"
+        grxA_entries="@array/demo_lists_entries" grxA_values="@array/demo_lists_values" grxA_ics="@array/demo_lists_icons"/>
+    <GrxMultiAccess android:icon="@drawable/demo_icon_5" android:title="All options" android:key="multiaccess_3"  android:summary="Separator is comma, max 3" android:widgetLayout="@layout/widget_compl_accent" android:dependency="check_dependency" grxShc="true" grxApps="true" grxAct="true" grxSep="," grxMax="3" />
+    <GrxMultiAccess android:title="Just Apps and Activities" android:key="multiaccess_4" android:summary="No limit" android:dependency="check_dependency" grxShc="false" grxApps="true" grxAct="true"
+        />
+
+</PreferenceScreen>

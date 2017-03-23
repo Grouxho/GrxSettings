@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Text android:icon="@drawable/demo_icon_checkbox" android:id="@+id/demo_check_switch" android:title="GrxCheckBox - GrxSwitch "  />
+    <Separator/>
+    <Text android:id="@+id/demo_categories" android:title="GrxPreferenceCategory - GrxInfoTest" app:showIconSpace="false" />
+    <Separator/>
+    <Text android:icon="@drawable/demo_icon_slider" android:id="@+id/demo_num_text" android:title="Numbers, EditText"   android:hint="seekbar, numberpicker, edittext"/>
+    <Separator/>
+    <Text android:id="@+id/demo_open_intent_activity" android:title="GrxOpenActivity, GrxOpenIntent"  app:showIconSpace="false" />
+    <Separator/>
+    <Group
+        android:id="@+id/demo_grupo_listados"
+        app:collapsible="true"
+        app:collapsed="true">
+
+        <GroupHeader
+            android:id="@+id/demo_head_grupo_listados"
+            android:title="List of Items"
+            android:hint="Select - Sort Items"/>
+
+        <Separator/>
+        <Text android:id="@+id/demo_select_items" android:title="Select one or more items"   app:showIconSpace="true" />
+        <Separator/>
+        <Text android:id="@+id/demo_sort_items" android:title="Sort items"   app:showIconSpace="true" />
+        <Separator/>
+        <Text android:id="@+id/demo_select_sort" android:title="Select and Sort items"   app:showIconSpace="true" />
+        <Separator/>
+    </Group>
+
+     <Text android:icon="@drawable/demo_icon_date_time" android:id="@+id/demo_time_date" android:title="Date and Time"  />
+    <Separator/>
+
+    <Text android:icon="@drawable/demo_icon_color" android:id="@+id/demo_colorpicker" android:title="Color Selection"    />
+    <Separator/>
+
+    <Text  android:id="@+id/demo_multiappcolor" android:title="GrxMultiAppColor"  android:hint ="To play with colors and apps" app:showIconSpace="false"  />
+    <Separator/>
+
+    <Text android:id="@+id/demo_image_picker" android:title="GrxPickImage"    />
+    <Separator/>
+
+    <Group
+        android:id="@+id/demo_grupo_apps"
+        app:collapsible="true"
+        app:collapsed="true">
+
+    <GroupHeader
+        android:id="@+id/demo_head_apps"
+        android:title="Apps,shortcuts..."/>
+        <Separator/>
+        <Text android:icon="@drawable/demo_icon_select_app" android:id="@+id/demo_selectapp" android:hint="Simple App selector" android:title="App Selection"  />
+        <Separator/>
+        <Text android:icon="@drawable/demo_icon_access" android:id="@+id/demo_access" android:hint="Apps,Activities,shortcuts.." android:title="Multiuse Selector"  />
+        <Separator/>
+        <Text android:icon="@drawable/demo_icon_multiaccess" android:id="@+id/demo_multiaccess" android:hint="Select and sort accesses" android:title="MultiAccess Selector"  />
+        <Separator/>
+    </Group>
+
+    <Text android:icon="@drawable/demo_icon_nested" android:id="@+id/demo_nested" android:title="Nested Screens" />
+    <Separator/>
+
+    <Text android:id="@+id/demo_dependency" android:title="Customized Dependencies" app:showIconSpace="false" />
+    <Separator/>
+
+</menu>

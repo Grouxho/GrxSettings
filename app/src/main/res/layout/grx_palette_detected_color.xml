@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/contenedor_color_auto" android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#00000000" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="#06dddddd">
+        <TextView android:textSize="14.0dip" android:gravity="center" android:layout_gravity="center" android:text="@string/gs_auto_color_suggestions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="#00000000" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <View android:background="#22222222" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <HorizontalScrollView android:scrollbarSize="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_marginBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+            <View android:background="#00000000" android:layout_width="10.0dip" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical"  android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/paleta_calculado" android:src="@drawable/circulo" android:clickable="true" android:background="?android:selectableItemBackground"  android:layout_gravity="center" android:scaleType="fitXY" android:padding="8dp"  android:layout_width="56.0dip" android:layout_height="56.0dip" />
+                    <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center"  android:text="Central" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:background="#00000000" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+            </LinearLayout>
+            <View android:background="#00000000" android:layout_width="10.0dip" android:layout_height="match_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/paleta_vibrant" android:src="@drawable/circulo" android:clickable="true" android:background="?android:selectableItemBackground"  android:layout_gravity="center" android:scaleType="fitXY" android:padding="8dp"  android:layout_width="56.0dip" android:layout_height="56.0dip" />
+                <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center" android:text="Vibrant" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="#00000000" android:layout_width="10.0dip" android:layout_height="match_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/paleta_light_vibrant" android:src="@drawable/circulo" android:clickable="true" android:background="?android:selectableItemBackground"  android:layout_gravity="center" android:scaleType="fitXY" android:padding="8dp"  android:layout_width="56.0dip" android:layout_height="56.0dip" />
+                <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center" android:text="Light Vibrant" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View android:background="#00000000" android:layout_width="10.0dip" android:layout_height="match_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/paleta_dark_vibrant" android:src="@drawable/circulo" android:clickable="true" android:background="?android:selectableItemBackground"  android:layout_gravity="center" android:scaleType="fitXY" android:padding="8dp"  android:layout_width="56.0dip" android:layout_height="56.0dip" />
+                <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center" android:text="Dark Vibrant" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View android:background="#00000000" android:layout_width="10.0dip" android:layout_height="match_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/paleta_muted" android:src="@drawable/circulo" android:clickable="true" android:background="?android:selectableItemBackground"  android:layout_gravity="center" android:scaleType="fitXY" android:padding="8dp"  android:layout_width="56.0dip" android:layout_height="56.0dip" />
+                <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center" android:text="Muted" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View android:background="#00000000" android:layout_width="10.0dip" android:layout_height="match_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/paleta_light_muted" android:src="@drawable/circulo" android:clickable="true" android:background="?android:selectableItemBackground"  android:layout_gravity="center" android:scaleType="fitXY" android:padding="8dp"  android:layout_width="56.0dip" android:layout_height="56.0dip" />
+                <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center" android:text="Light Muted" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View android:background="#00000000" android:layout_width="10.0dip" android:layout_height="match_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/paleta_dark_muted" android:src="@drawable/circulo" android:clickable="true" android:background="?android:selectableItemBackground"  android:layout_gravity="center" android:scaleType="fitXY" android:padding="8dp"  android:layout_width="56.0dip" android:layout_height="56.0dip" />
+                <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center" android:text="Dark Muted" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:background="#00000000" android:layout_width="10.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View android:background="#22222222" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="#00000000" android:layout_width="match_parent" android:layout_height="60.0dip" android:layout_margin="5.0dip">
+        <TextView  android:gravity="center" android:layout_gravity="center" android:id="@+id/texto_muestra_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="?colorAccent" android:text="Central"/>
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/muestra_color" android:layout_width="40.0dip" android:layout_height="40.0dip"  android:src="@drawable/circulo" android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_gravity="center" android:gravity="center" android:id="@+id/contenedor_montaje" android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_margin="10.0dip">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/montaje_color" android:layout_width="200.0dip" android:layout_height="200.0dip" android:scaleType="fitXY" />
+    </LinearLayout>
+    <!--
+       <View android:background="#00000000" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+      <include layout="@layout/grx_mdtp_done_button" />
+    <View android:background="#00000000" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    -->
+
+
+
+
+</LinearLayout>
