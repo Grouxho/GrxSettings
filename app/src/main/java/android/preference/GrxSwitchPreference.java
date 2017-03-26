@@ -69,7 +69,7 @@ public class GrxSwitchPreference extends SwitchPreference implements GrxPreferen
     public void onBindView(View view) {
         super.onBindView(view);
         float alpha = (isEnabled() ? (float) 1.0 : (float) 0.4);
-        vAndroidIcon.setAlpha(alpha);
+        if(vAndroidIcon!=null) vAndroidIcon.setAlpha(alpha);
     }
 
     @Override
