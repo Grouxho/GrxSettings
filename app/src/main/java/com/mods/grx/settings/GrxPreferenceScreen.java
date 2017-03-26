@@ -68,6 +68,7 @@ public class GrxPreferenceScreen extends PreferenceFragment implements
 
     PreferenceScreen mGrxScreen;
     public Map<String, String> mScreensTree;
+    private ArrayList<String> mAuxScreenKeys = new ArrayList<String>();
     public LinkedHashMap<String, Integer> mScreenPositions;
     HashSet<String> mGroupKeyList;
     boolean mSyncMode=false;
@@ -253,15 +254,16 @@ public class GrxPreferenceScreen extends PreferenceFragment implements
     private void ini_preference_screen(PreferenceScreen ps){
         int nprefs = ps.getPreferenceCount();
         String nps = ps.getKey();
+        mAuxScreenKeys.add(nps);
         for(int i=0;i<nprefs;i++){
-            ini_preference(ps.getPreference(i), nps);
+		ini_preference(ps.getPreference(i), mAuxScreenKeys.get(mAuxScreenKeys.size()-1));
         }
+        mAuxScreenKeys.remove(nps);
     }
 
     private void crea_categoria(GrxPreferenceCategory cat){
         for(int i=0;i<cat.getPreferenceCount();i++){
-            String parent_screen = "";
-            ini_preference(cat.getPreference(i),getPreferenceScreen().getKey()); //grxgrx
+			ini_preference(cat.getPreference(i),mAuxScreenKeys.get(mAuxScreenKeys.size()-1));
         }
     }
 
@@ -321,12 +323,12 @@ public class GrxPreferenceScreen extends PreferenceFragment implements
         switch (pref.getClass().getSimpleName()) {
             case "GrxSwitchPreference":
                 GrxSwitchPreference swp = (GrxSwitchPreference) pref;
-                swp.save_value_in_settings(swp.isChecked());
+                swp.save_value_in_settings(!swp.isChecked());
                 swp.send_broadcasts_and_change_group_key();
                 break;
             case "GrxCheckBoxPreference":
                 GrxCheckBoxPreference cbp = (GrxCheckBoxPreference) pref;
-                cbp.save_value_in_settings(cbp.isChecked());
+                cbp.save_value_in_settings(!cbp.isChecked());
                 cbp.send_broadcasts_and_change_group_key();
                 break;
 
