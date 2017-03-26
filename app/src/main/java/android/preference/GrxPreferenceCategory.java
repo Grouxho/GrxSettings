@@ -105,6 +105,8 @@ public class GrxPreferenceCategory extends PreferenceCategory implements GrxPref
 
     /************ custom dependencies ****************/
     public void OnCustomDependencyChange(boolean state){
+
         setEnabled(state);
+        dep=state;
     }
 }
