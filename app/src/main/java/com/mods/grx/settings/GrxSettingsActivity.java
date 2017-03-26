@@ -1054,7 +1054,7 @@ public class GrxSettingsActivity extends AppCompatActivity implements
                 if(mCurrentMenu==1) hide_expand_collapse_nav_buttons();
                 else show_expand_collapse_nav_buttons();
             }else hide_expand_collapse_nav_buttons();
-        }
+        }else hide_expand_collapse_nav_buttons();
     }
 
 
