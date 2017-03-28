@@ -182,17 +182,18 @@ public class GrxPreferenceScreen extends PreferenceFragment implements
         return false;
     }
 
-    private void change_screen(PreferenceScreen preferenceScreen){
-        if(preferenceScreen!=null){
-            String p_actual= getPreferenceScreen().getKey();
-            mScreenPositions.put(p_actual,current_list_position());
-            PreferenceScreen p = (PreferenceScreen) preferenceScreen;
-            if(p.getDialog()!=null) p.getDialog().dismiss();
-            setPreferenceScreen((PreferenceScreen)preferenceScreen);
-            mGrxSettingsActivity.onBackKey(preferenceScreen.getTitle(), true);
-            goto_last_list_position(mScreenPositions.get(getPreferenceScreen().getKey()));
-            mCurrentSubScreen=getPreferenceScreen().getKey();
-            mGrxSettingsActivity.onScreenChange(mCurrentSubScreen);
+        private void change_screen(PreferenceScreen preferenceScreen){
+            if(preferenceScreen!=null){
+                String p_actual= getPreferenceScreen().getKey();
+                mScreenPositions.put(p_actual,current_list_position());
+                PreferenceScreen p = (PreferenceScreen) preferenceScreen;
+                if(p.getDialog()!=null) p.getDialog().dismiss();
+                setPreferenceScreen((PreferenceScreen)preferenceScreen);
+                mGrxSettingsActivity.onBackKey(preferenceScreen.getTitle(), true);
+                goto_last_list_position(mScreenPositions.get(getPreferenceScreen().getKey()));
+                mCurrentSubScreen=getPreferenceScreen().getKey();
+                mGrxSettingsActivity.onScreenChange(mCurrentSubScreen);
+            }
             if (!(mCurrentKey==null || mCurrentKey.isEmpty())){
                 Preference pref = getPreferenceScreen().findPreference(mCurrentKey);
                 if(pref!=null) {
@@ -202,7 +203,6 @@ public class GrxPreferenceScreen extends PreferenceFragment implements
             }
 
         }
-    }
 
     private void goto_last_list_position(final int pos){
         View rootView = getView();
