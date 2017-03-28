@@ -34,7 +34,7 @@ import com.mods.grx.settings.prefssupport.info.PrefAttrsInfo;
 
 
 public class GrxEditText extends  Preference implements DlgFrEditText.OnGrxEditTextListener,
-    GrxPreferenceScreen.CustomDependencyListener {
+        GrxPreferenceScreen.CustomDependencyListener {
 
     private Runnable RDobleClick;
     private Handler handler;
@@ -68,7 +68,7 @@ public class GrxEditText extends  Preference implements DlgFrEditText.OnGrxEditT
         View view = super.onCreateView(parent);
         vAndroidIcon = (ImageView) view.findViewById(android.R.id.icon);
         vAndroidIcon.setLayoutParams(Common.AndroidIconParams);
-    return view;
+        return view;
     }
 
 
@@ -78,6 +78,7 @@ public class GrxEditText extends  Preference implements DlgFrEditText.OnGrxEditT
         setSummary(mCurrentValue);
         float alpha = (isEnabled() ? (float) 1.0 : (float) 0.4);
         vAndroidIcon.setAlpha(alpha);
+        set_summary();
     }
 
 
@@ -95,12 +96,12 @@ public class GrxEditText extends  Preference implements DlgFrEditText.OnGrxEditT
     private void save_value_in_settings(String valor){
         if(!myPrefAttrsInfo.is_valid_key()) return;
         if(myPrefAttrsInfo.get_allowed_save_in_settings_db()) {
-                String real = Settings.System.getString(getContext().getContentResolver(), this.getKey());
-                if(real==null) real="N/A";
-                if (!real.equals(valor)) {
-                    Settings.System.putString(getContext().getContentResolver(), this.getKey(), valor);
-                }
+            String real = Settings.System.getString(getContext().getContentResolver(), this.getKey());
+            if(real==null) real="N/A";
+            if (!real.equals(valor)) {
+                Settings.System.putString(getContext().getContentResolver(), this.getKey(), valor);
             }
+        }
     }
 
     private void set_up_double_click(){
@@ -186,20 +187,26 @@ public class GrxEditText extends  Preference implements DlgFrEditText.OnGrxEditT
         }
     }
 
+    private void set_summary(){
+        if(mCurrentValue.isEmpty()) setSummary(myPrefAttrsInfo.get_my_summary());
+        else setSummary(mCurrentValue);
+    }
+
+
     private void set_value(String value){
         if(!value.equals(mCurrentValue)){
             mCurrentValue=value;
-            setSummary(mCurrentValue);
             persistString(value);
             notifyChanged();
             save_value_in_settings(value);
+            set_summary();
             if(getOnPreferenceChangeListener()!=null) getOnPreferenceChangeListener().onPreferenceChange(this,value);
             send_broadcasts_and_change_group_key();
         }
     }
 
     public void onEditTextDone(String text){
-            set_value(text);
+        set_value(text);
     }
 
 
