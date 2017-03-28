@@ -45,6 +45,9 @@
     <string name="gs_backup">Backup</string>
     <string name="gs_restore">Restaurar</string>
 
+    <string name="add_new_item">Añade elemento</string>
+    <string name="update_item">Actualizar elemento</string>
+
 
     <string name="gs_sync_start">Sincronización de preferencias iniciada</string>
     <string name="gs_sync_end">Sincronización de preferencias finalizadas</string>
