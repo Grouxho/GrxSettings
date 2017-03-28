@@ -1276,6 +1276,9 @@ public class GrxSettingsActivity extends AppCompatActivity implements
             Utils.delete_files_or_create_folder(dest_icons_dir, ".png");
             Utils.copy_files(ori_icons_dir, dest_icons_dir, ".png");
             Utils.fix_foler_permissions(dest_icons_dir, ".png");
+            Utils.delete_files_or_create_folder(dest_icons_dir, ".jpg");
+            Utils.copy_files(ori_icons_dir, dest_icons_dir, ".jpg");
+            Utils.fix_foler_permissions(dest_icons_dir, ".jpg");
         }
 
         return res;
@@ -1450,6 +1453,9 @@ public class GrxSettingsActivity extends AppCompatActivity implements
                 Utils.delete_files_or_create_folder(dest_icon_folder, ".png");
                 Utils.copy_files(ori_icon_folder, dest_icon_folder,".png");
                 Utils.fix_foler_permissions(dest_icon_folder, ".png");
+                Utils.delete_files_or_create_folder(dest_icon_folder, ".jpg");
+                Utils.copy_files(ori_icon_folder, dest_icon_folder,".jpg");
+                Utils.fix_foler_permissions(dest_icon_folder, ".jpg");
 
             }
         }
