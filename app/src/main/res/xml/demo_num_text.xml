@@ -11,4 +11,6 @@
     <GrxPreferenceCategory android:title="GrxEditTextPreference" />
     <GrxEditText android:title="EditText 1" android:key="edittext_1" android:summary="With default text" android:widgetLayout="@layout/widget_accent_arrow" android:defaultValue="this is de default text" grxGkey="numberpickers" />
     <GrxEditText android:icon="@drawable/demo_icon_4" android:title="EditText 2" android:key="edittext_2" android:summary="No default value" android:widgetLayout="@layout/widget_arrow" grxBc1="true" />
+    <GrxEditText android:title="Summary is % " android:key="edittext_3" android:summary="%" android:widgetLayout="@layout/widget_arrow" grxBc1="true" />
+    <GrxEditText android:title="Summary is % and defval" android:key="edittext_4" android:summary="%" android:defaultValue="Default value" android:widgetLayout="@layout/widget_arrow" grxBc1="true" />
 </PreferenceScreen>
