@@ -75,7 +75,7 @@ public class GrxEditText extends  Preference implements DlgFrEditText.OnGrxEditT
     @Override
     public void onBindView(View view) {
         super.onBindView(view);
-        setSummary(mCurrentValue);
+        set_summary();
         float alpha = (isEnabled() ? (float) 1.0 : (float) 0.4);
         vAndroidIcon.setAlpha(alpha);
         set_summary();
@@ -188,10 +188,12 @@ public class GrxEditText extends  Preference implements DlgFrEditText.OnGrxEditT
     }
 
     private void set_summary(){
-        if(mCurrentValue.isEmpty()) setSummary(myPrefAttrsInfo.get_my_summary());
-        else setSummary(mCurrentValue);
+        String summary = myPrefAttrsInfo.get_my_summary();
+        if(summary.equals("%")) setSummary(mCurrentValue);
+        else {
+           setSummary(mCurrentValue.isEmpty() ? summary : mCurrentValue);
+            }
     }
-
 
     private void set_value(String value){
         if(!value.equals(mCurrentValue)){
