@@ -227,7 +227,13 @@ public class DlgFrMultiSelect extends DialogFragment  {  //single (ListPreferenc
             icons_array = getResources().obtainTypedArray(mIdIconsArray);
         }
         String[] selected =null;
-        if(mValue!=null && !mValue.isEmpty()) selected=mValue.split(Pattern.quote(mSeparator));
+        if(mSeparator.isEmpty()) {
+            selected = new String[1];
+            selected[0]=mValue;
+        }
+        else{
+            if(mValue!=null && !mValue.isEmpty()) selected=mValue.split(Pattern.quote(mSeparator));
+        }
 
         for(int i=0;i<vals_array.length;i++){
             Drawable drwtmp = null;

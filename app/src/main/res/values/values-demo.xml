@@ -11,17 +11,15 @@
         <item>Airplane 1</item>
         <item>Battery 1</item>
         <item>Clock 1</item>
-    </string-array>
-    <string-array name="demo_lists_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
+        <item>Alarm 2</item>
+        <item>Airplane 2</item>
+        <item>Battery 2</item>
+        <item>Brightness 2</item>
+        <item>Clock 3</item>
+        <item>Alarm 3</item>
+        <item>Airplane 3</item>
+        <item>Battery 3</item>
+        <item>Clock 4</item>
     </string-array>
     <array name="demo_lists_icons">
         <item>@drawable/demo_icon_1</item>
@@ -33,7 +31,36 @@
         <item>@drawable/demo_icon_2</item>
         <item>@drawable/demo_icon_3</item>
         <item>@drawable/demo_icon_4</item>
+        <item>@drawable/demo_icon_1</item>
+        <item>@drawable/demo_icon_2</item>
+        <item>@drawable/demo_icon_3</item>
+        <item>@drawable/demo_icon_4</item>
+        <item>@drawable/demo_icon_5</item>
+        <item>@drawable/demo_icon_1</item>
+        <item>@drawable/demo_icon_2</item>
+        <item>@drawable/demo_icon_3</item>
+        <item>@drawable/demo_icon_4</item>
     </array>
+    <string-array name="demo_lists_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
     <string-array name="demo_changelog">
         <item>21 customizable type of preferences</item>
         <item>Preferences can be declared using their short class name.</item>
