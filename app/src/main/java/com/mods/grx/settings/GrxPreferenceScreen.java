@@ -141,7 +141,7 @@ public class GrxPreferenceScreen extends PreferenceFragment implements
 
         }
 
-        update_all_custom_dependencies();
+        //update_all_custom_dependencies(); //gives fc here if the app is restarted by the system. F.example changin screen zoom on S7E
 
 
 
@@ -246,7 +246,7 @@ public class GrxPreferenceScreen extends PreferenceFragment implements
                 mGrxSettingsActivity.onBackKey(getPreferenceScreen().getTitle(), true);
             }
         }
-
+        update_all_custom_dependencies();
     }
 
 
