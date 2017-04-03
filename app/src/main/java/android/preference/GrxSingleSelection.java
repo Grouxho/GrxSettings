@@ -171,7 +171,7 @@ public class GrxSingleSelection extends Preference implements DlgFrMultiSelect.G
             DlgFrMultiSelect dlg = (DlgFrMultiSelect) prefsScreen.getFragmentManager().findFragmentByTag(Common.TAG_DLGFRGRMULTISELECT);
             if(dlg==null){
                 dlg = DlgFrMultiSelect.newInstance(this, Common.TAG_PREFSSCREEN_FRAGMENT, myPrefAttrsInfo.get_my_key(), myPrefAttrsInfo.get_my_title(),mValue,
-                        id_options_array, id_values_array, id_icons_array, myPrefAttrsInfo.get_my_separator(), 1);
+                        id_options_array, id_values_array, id_icons_array, "", 1);
                 dlg.show(prefsScreen.getFragmentManager(),Common.TAG_DLGFRGRMULTISELECT);
             }
         }
